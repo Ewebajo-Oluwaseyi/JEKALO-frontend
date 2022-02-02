@@ -35,7 +35,7 @@
 @media screen and (min-width: 1024px) {
   .page-container {
     margin: 0 auto;
-    padding: 3.5rem 10rem;
+    padding: 3.5rem 8rem;
   }
   .page-container .formWrapper {
     display: grid;
