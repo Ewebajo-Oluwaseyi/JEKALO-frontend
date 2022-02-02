@@ -40,7 +40,7 @@
   .page-container .formWrapper {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 1.5rem;
     align-items: flex-start;
   }

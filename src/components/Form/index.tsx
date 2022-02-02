@@ -43,7 +43,7 @@ const Form = (props: Props) => {
     return (
         <div className='mb-5'>
           <form onSubmit={handleSubmit(createUser)} className='formWrapper'>
-           <div className='flex flex-wrap gap-6'>
+           <div className='flex flex-wrap gap-6 lg:gap-10'>
                <div className='flex-grow'>
                   <TextInput
                       id="first_name"
@@ -99,7 +99,7 @@ const Form = (props: Props) => {
                </div>
            </div>
            <div>
-               <button className='btn bg-primary w-full lg:w-10/12 mt-6' type="submit" disabled={isSubmit}>
+               <button className='btn bg-primary w-full lg:w-1/2 mt-6' type="submit" disabled={isSubmit}>
                     {isSubmit ? <Spinner className="text-2xl"/> : 'SUBMIT'}
                </button>
            </div>
